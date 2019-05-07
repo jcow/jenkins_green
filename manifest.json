@@ -1,0 +1,19 @@
+{
+  "name": "Convert blue to green",
+  "version": "1.0",
+  "description": "Converts bubbles to green",
+  "permissions": ["activeTab", "declarativeContent"],
+  "content_scripts": [
+    {
+      "matches": ["http://zgcompile.zgtools.net/*", "https://zgcompile.zgtools.net/*"],
+      "js": ["myscript.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "manifest_version": 2
+}
